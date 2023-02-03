@@ -68,9 +68,11 @@ export default function Terms() {
           justifyContent={"center"}
           width={"50%"}
         >
-          <Text fontSize={"35pt"}>Terms & Conditions</Text>
+          <Text fontSize={{ base: "25pt", md: "30pt", lg: "35pt" }}>
+            Terms & Conditions
+          </Text>
           <br />
-          <Text>
+          <Text fontSize={{ base: "8pt", md: "10pt", lg: "12pt" }}>
             Introduction: PicAnswer is a photo-taking app that integrates
             artificial intelligence to provide users with solutions to their
             problems. By using PicAnswer, you agree to be bound by these terms

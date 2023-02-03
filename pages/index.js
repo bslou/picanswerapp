@@ -73,7 +73,7 @@ export default function Home() {
         >
           <Text
             fontWeight={500}
-            fontSize={"40pt"}
+            fontSize={{ base: "20pt", md: "30pt", lg: "40pt" }}
             textAlign={"center"}
             fontFamily={"sans-serif"}
           >
@@ -81,7 +81,7 @@ export default function Home() {
           </Text>
           <Text
             color={"gray"}
-            fontSize={"21pt"}
+            fontSize={{ base: "11pt", md: "16pt", lg: "21pt" }}
             textAlign={"center"}
             fontFamily={"sans-serif"}
             fontWeight={300}
