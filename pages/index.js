@@ -88,6 +88,7 @@ export default function Home() {
           >
             PicAnswer integrated AI within picture taking, so now you can take
             pictures and use ChatGPT in order to solve any problem you have.
+            <b>(Note: doesn't solve graphs or non-worded pictures yet)</b>
           </Text>
         </Flex>
         <Button
