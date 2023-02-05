@@ -72,7 +72,7 @@ export default function Home() {
           gap={2}
         >
           <Text
-            fontWeight={500}
+            fontWeight={600}
             fontSize={{ base: "20pt", md: "30pt", lg: "40pt" }}
             textAlign={"center"}
             fontFamily={"sans-serif"}
